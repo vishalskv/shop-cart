@@ -1,0 +1,12 @@
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.img-fluid {
+    max-height: 150px; /* Control image height */
+    object-fit: cover; /* Maintain aspect ratio */
+}

@@ -1,0 +1,42 @@
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    height: 100%; /* Ensure card height is flexible */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px; /* Adjusted image height for a more compact look */
+    object-fit: cover; /* Ensures image fills the area without stretching */
+}
+
+.price-section {
+    margin: 10px 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #757575;
+}
+
+.selling-price {
+    color: #388e3c; /* Green color for selling price */
+    font-weight: bold;
+}
+
+.discount-price {
+    color: #d32f2f; /* Red color for discount price */
+    font-weight: bold;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* This will space out the buttons at the bottom */
+    padding: 15px; /* Reduce padding for a more compact layout */
+}
